@@ -1,0 +1,235 @@
+/* !  GENARAL CODE */
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-size: 16px;
+  font-family: "Merienda", cursive;
+  line-height: 1.5;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+/*  ! STARTED HEADER PART */
+.container {
+  max-width: 1460px;
+  height: 640px;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+.header {
+  position: absolute;
+  top: 1000%;
+}
+.header__container {
+  background-image: url("./Mainbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+a,
+li,
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+.link {
+  font-family: "Merienda";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nav {
+  display: flex;
+  padding: 30px 149px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  text-align: end;
+}
+.item {
+  text-align: end;
+}
+.item + .item {
+  margin-left: 40px;
+}
+
+/* ! STARTED BOX PART */
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 111px;
+  margin-bottom: 20px;
+}
+.box__head {
+  font-size: 40px;
+  line-height: 58px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+.beans {
+  margin: 0px auto;
+  margin-bottom: 34.7px;
+}
+.box__desc {
+  margin: 0px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.box__desc {
+  margin-bottom: 20px;
+}
+.buttton {
+  max-width: 120px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 3px;
+  padding-left: 42px;
+  padding-right: 42px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin: 0px auto;
+}
+.buttton:hover {
+  transition: all ease 1s;
+  background-color: #ffffff;
+  opacity: 0.8;
+  color: black;
+  border: 1px solid black;
+}
+.button:active {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+}
+/* ! STARTED MAIN PART */
+.main {
+  flex-grow: 1;
+}
+.main__head {
+  /* ! margin-top: 80px; */
+  text-align: center;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+}
+.bearns__black {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.main__desc {
+  max-width: 589px;
+  margin: 0px auto;
+}
+.main-desc {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.main__desc {
+  margin-top: 40.7px;
+}
+.main-desc + .main-desc {
+  margin-top: 25px;
+}
+.About-Us {
+  padding-top: 80px;
+  /* padding-bottom: 101px; */
+}
+/* ! OUR BEST PART  */
+.our-best__container {
+  background-image: url("./images/our-best.png");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-height: 495px;
+  padding-top: 80px;
+}
+.our-best__head {
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  text-align: center;
+}
+.our-iten {
+  max-width: 220px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  background: rgba(255, 255, 255, 0.65);
+  border-radius: 8px;
+}
+.our-iten {
+    margin-right: 71px;
+}
+.our-head {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+.our-img {
+  margin-left: 34px;
+  margin-right: 34px;
+}
+.our-price {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: end;
+  margin-right: 22px;
+  color: #000000;
+}
+.our-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 39px;
+}
+/* ! FOOTER PART */
+.footer__container{
+    padding-top: 30px;
+}
+.link-black {
+    color: #000000;
+}
+.footer-list{
+    display: flex;
+    justify-content: center;
+}
+.footer-bearn{
+   margin-top: 30px;
+}
